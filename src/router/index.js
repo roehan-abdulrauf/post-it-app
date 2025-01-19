@@ -4,7 +4,7 @@ import NoteDetail from '../views/NoteDetail.vue';
 
 const routes = [
   { path: '/', name: 'Notes', component: Notes },
-  { path: '/note', name: 'NoteDetail', component: NoteDetail, props: true },
+  { path: '/note/:id', name: 'NoteDetail', component: NoteDetail, props: true },
 ];
 
 const router = createRouter({
